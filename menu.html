@@ -1,0 +1,58 @@
+<html>
+    <head> <title>Activity</title>
+        <style>
+            button {
+                background: transparent;
+                font-size: xx-large;
+            }
+            @keyframes slideInLeft {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+    
+      body {
+        animation: 1s ease-out 0s 1 slideInLeft;
+        
+        font-family: "Segoe UI", Arial, Helvetica, Sans Serif;
+      }
+      a {
+        margin-right: 6px;
+
+      }
+      .button {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+  }
+        </style>
+        <script>
+          function cd() {
+            window.location ="activity.html";
+          }
+          function dd() {
+            window.location ="location.html"
+          }
+        </script>
+    </head>
+
+    <body background="pic1.png">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+       <left> <u><a href="https://www.youtube.com/@birlaopenmindsbhagalpursch4058" class="button">YT Channel</a>
+        <a class="button" onclick="cd()">Activity & Games</a> 
+        <a href="https://www.youtube.com/watch?v=siaMGxFZGQU" class="button">principal sir interwiew</a>
+        <a href="https://www.openmindsbhagalpur.com/" class="button"> Official Website</a>  
+        <a class="button" onclick="dd()">Location</a>  </u></left>
+      </div>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+    <head><title> School Gallery</title> 
+    <style>
+        button {
+            background: transparent;
+            font-size: xx-large;
+        }
+        @keyframes slideInLeft {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+    
+      body {
+        
+        background: 1s ease-out 0s 1 slideInLeft;
+        font-family: "Segoe UI", Arial, Helvetica, Sans Serif;
+      }
+      
+    </style>
+    <script>
+        function move() {
+    window.location ="menu.html";
+}
+    </script>
+    </head>
+    <body background="indexbg.png">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+        <button onclick="move()"> Enter to "BIRLA OPEN MINDS"</button></div>
+    </body>
+</html>
